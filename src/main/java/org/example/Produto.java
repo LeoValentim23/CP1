@@ -50,7 +50,7 @@ public class Produto implements Serializable {
         this.validade = validade;
     }
         public String getTamanho() {
-        return nome;
+        return tamanho;
     }
 
     public void setTamanho(String tamanho) {
