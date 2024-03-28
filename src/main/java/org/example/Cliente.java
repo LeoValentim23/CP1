@@ -20,7 +20,7 @@ import java.util.Scanner;
                 objectOutputStream.writeObject(idProduto);
                 objectOutputStream.flush();
 
-                Produto produto = (Produto) objectInputStream.readObject();
+                ProdutoCS produto = (ProdutoCS) objectInputStream.readObject();
 
                 if (produto != null) {
                     System.out.println("Nome: " + produto.getNome());
