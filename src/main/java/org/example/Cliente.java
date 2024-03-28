@@ -13,6 +13,7 @@ import java.util.Scanner;
                 ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
 
                 Scanner scanner = new Scanner(System.in);
+                System.out.println("Conexão estabelecida com o Servidor.");
                 System.out.println("Digite o id do produto que deseja obter informações: ");
                 int idProduto = scanner.nextInt();
 

@@ -18,6 +18,7 @@ public class Servidor {
 
             while (true) {
                 Socket socket = serverSocket.accept();
+                System.out.println("Servidor ativo.");
                 ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
                 ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
 
